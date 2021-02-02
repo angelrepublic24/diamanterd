@@ -1,0 +1,92 @@
+
+body { background-image: url(../images/fondo.jpg);
+background-position:center;
+	}
+	
+	@media only screen and (max-width : 1400px){
+
+    header{
+		background: url(../images/diamond1.gif);background-repeat: no-repeat;
+            width: 100%;
+			height: 230px;
+            background-position:center;
+            background-size: 100% auto !important;
+    }
+}
+
+
+/* Global Structure */
+.main {
+	margin:0 auto;
+	padding:10px;
+	background:#013252;
+	box-shadow:0 0 7px rgba(0, 0, 0, .2);
+	-moz-box-shadow:0 0 7px rgba(0, 0, 0, .2);
+	-webkit-box-shadow:0 0 7px rgba(0, 0, 0, .2);
+	margin:0 auto;
+	width:70%;
+	position:relative;
+	
+}
+
+.main h3 {
+	text-align: center;
+        color:#FFF;
+	position: relative;
+}
+
+.main input {
+	width:200px;
+        height:15px;
+}
+/* main layout */
+
+/*  tabs end */
+/* tabs begin */
+
+.nivoSlider {
+	height: 50%;
+	position: relative;
+	width: 100%;
+}
+.nivoSlider img {
+	left:20%;
+	position: relative;
+}
+.nivoSlider p {
+text-align: justify;
+color:#FFF;
+text-transform:capitalize;
+}
+
+.nivoSlider h3 {
+	text-align: center;
+	position: relative;
+}
+
+.clientes p,h2 {
+text-align:center;
+color:#FFF;
+text-transform:capitalize;
+}
+.clientes img {
+	margin-left:23%;
+	position: relative;
+	width:55%;
+	height:40%;
+}
+.contactos p,h2 {
+color:#FFF;
+text-transform:capitalize;
+}
+.contactos img {
+	position: relative;
+	width:100%;
+	height:100%;
+}
+
+
+/* -------------------------------------------- Page 6 -------------------------------------------- */
+#page_6 #col_1 p {text-align: justify}
+#page_6 #col_1 h2{text-align: center}
+
